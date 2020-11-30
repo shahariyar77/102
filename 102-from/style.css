@@ -1,0 +1,71 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,Philosopher,Roboto;
+    
+}
+
+
+.section-padding {
+  padding: 80px 0;
+}
+body h2 {
+  font-weight: 300;
+}
+
+/*========================   Nav manu ==================*/
+
+.section-tittle {
+  font-size: 20px;
+  line-height: 1.8;
+  margin-bottom: 50px;
+}
+.contact-us-from {
+  font-size: 17px;
+  font-weight: 400;
+}
+.from-element {
+  position: relative;
+}
+.from-element label {
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.contact-us-from input[type="text"], .contact-us-from input[type="email"], .contact-us-from  textarea{
+  border: 1px solid #ddd;
+  padding: 15px;
+  font-size: 14px;
+  width: 100%;
+  padding-top: 34px;
+  padding-bottom: 10px;
+    transition: .2s;
+}
+.contact-us-from textarea{
+    max-height: 150px;
+}
+.contact-us-from input[type="submit"]{
+    float: right;
+    background: red;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+}
+.smaill-text {
+	font-size: 14px;
+	padding: 12px 0;
+	margin: 0;
+}
+.contact-us-from input[type="text"]:focus,
+.contact-us-from input[type="email"]:focus,
+.contact-us-from textarea:focus
+{
+    background: #f0f0f0;
+}
+
+
